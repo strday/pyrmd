@@ -2,7 +2,8 @@
   position:relative;
   width: 960;
   height: 640;
-  background-color: azure;
+  background: url('pyrmd.png'); 
+  background-size: cover; 
 }
 #b1 {
   position:absolute;
