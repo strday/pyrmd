@@ -1,0 +1,169 @@
+#ws {
+  position:relative;
+  width: 960;
+  height: 640;
+  background-color: azure;
+}
+#b1 {
+  position:absolute;
+  width: 40%;
+  height: 30%;
+  background-color: cornsilk;
+}
+#b1i {
+  position:absolute;
+  top: 5%;
+  left: 45%;
+  width: 45%;
+  height: 90%;
+  background-color: black;
+	opacity:0.4;
+	display:none;
+}
+#b2 {
+  position:absolute;
+  bottom: 20%;
+  right: 0;
+  width: 40%;
+  height: 30%;
+  background-color: floralwhite;
+}
+#b2i {
+  position:absolute;
+  top: 5%;
+  right: 45%;
+  width: 45%;
+  height: 90%;
+  background-color: black;
+	opacity:0.4;
+	display:none;
+}
+body {
+	margin:0; 
+	font-family:courier;
+	background-color:rgba(170,218,255,1);
+}
+#n7km { 
+	background: url('n7k.png'); 
+	background-size: cover; 
+}
+#kk {
+	position: absolute;
+	left: 41%;
+	top: 10%;
+	display:none;
+}
+#sp {
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    display:none;
+}
+#spm {
+	background: url('sp.png'); 
+}
+#mp {
+    position: absolute;
+    left: 34%;
+    top: 60%;
+    display:none;
+}
+#pj {
+    position: absolute;
+    left: 15%;
+    top: 29%;
+    display:none;
+}
+#mt {
+    position: absolute;
+    left: 27%;
+    top: 35%;
+    display:none;
+}
+#sw {
+ position: absolute;
+ left: 15%;
+ top: 15%;
+ display:none;
+}
+#tt {
+    position: absolute;
+    left: 56%;
+    top: 30%;
+    display:none;
+} 
+#st {
+    position: absolute;
+    left: 6px;
+    bottom: 20px; 
+				background: rgba(255,255,255,0.5);
+} 
+#hlp {
+    position: absolute;
+    right: 6px;
+    bottom: 30px; 
+				width: 50px;
+				height: 50px;				
+				background: rgba(255,255,255,0.5);
+} 
+#trp {
+    position: absolute;
+    right: 58px;
+    bottom: 28px; 
+				width: 50px;
+				height: 50px;				
+				background: rgba(255,255,255,0.5);
+}
+#cht {
+	position: absolute;
+	right: 6px;
+	bottom: 84px; 
+	width: 300px;
+	height: 400px;
+	padding-top: 4px;
+	padding-left: 6px;
+	color: lime;
+	background: rgba(0,0,0,0.5); 
+}
+#res {
+    position: absolute;
+    right: 110px;
+    bottom: 28px; 
+				width: 50px;
+				height: 50px;				
+				background: rgba(255,255,255,0.5);
+}
+#db {
+    position: absolute;
+    top: 6px;
+    right: 6px; 
+				width: 300px;
+				height: 150px;
+				padding-top: 4px;
+				padding-left: 6px;
+				color: lime;
+				background: rgba(0,0,0,0.5);
+}
+td {
+    width: 35px;
+}
+#tk {
+	width:1280;
+	height:640;
+	position:absolute;
+	top:8px;
+	left:8px;
+	background-color:black;
+	opacity:0.4;
+	display:none;
+}
+#tk2 {
+	width:640;
+	height:480;
+	position:absolute;
+	top:80px;
+	left:320px;
+	color:orange;
+	font-size:200%;
+	font-weight:bold;
+}
