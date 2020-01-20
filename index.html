@@ -1,0 +1,42 @@
+<html>
+ <head>
+  <title>.N.7.K.</title> <!--nusantara 7 kerajaan-->
+  <link rel="shortcut icon" href="mps32.png">
+  <link rel="stylesheet" type="text/css" href="pyrmd.css">
+	<script>
+	  function showDetail(i) {
+		  //alert("this is detail");
+			if(i==1) 
+        var mtm = setTimeout(tmr, 3000); 
+			else			
+        var mtm = setTimeout(tmr2, 3000); 
+		}
+		function tmr() { //alert("tmr"); 
+      document.getElementById("b1i").style.display = "block";
+      document.getElementById("b2i").style.display = "none";
+		}
+		function tmr2() { //alert("tmr2"); 
+      document.getElementById("b2i").style.display = "block";
+      document.getElementById("b1i").style.display = "none";
+		}
+	</script>
+ </head>
+ <body>
+   <center>
+     <div id="ws">
+       <div id="b1" onMouseOver="showDetail(1)"></div>
+       <div id="b2" onMouseOver="showDetail(2)"></div>
+       <div id="m1"></div>
+       <div id="m2"></div>
+       <div id="s1"></div>
+       <div id="s2"></div> 
+			 <div id="b1i"></div>
+			 <div id="b2i"></div>
+     </div>
+   </center>
+ </body>
+</html>
+
+http://localhost/pyrmd/
+file://
+file:///C:/xampp/htdocs/pyrmd/index.html
